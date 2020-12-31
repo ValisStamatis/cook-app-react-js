@@ -40,7 +40,7 @@ const App = () => {
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`;
   return (
     <div className="App">
-      <h1 onClick={getData}>Food Searching App</h1>
+      <h1 onClick={getData}>Recipe Searching App</h1>
       <form className="search-form" onSubmit={onSubmit}>
       {alert !== "" && <Alert alert={alert} />}
         <input
