@@ -1,5 +1,6 @@
 # Recipe Application With React
-
+ 
+A recipe web application created using react js and the recipe api from https://developer.edamam.com/
 
 
 ## Available Scripts
