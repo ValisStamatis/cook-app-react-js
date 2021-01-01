@@ -25,7 +25,7 @@ h1 {
   letter-spacing: 0.1rem;
   color: #F6BD60;
   text-shadow: 0 0.2rem 0rem #84a59d8c;
-  text-transform: uppercase;
+  font-family: 'Pacifico', cursive;
   margin: 4rem 0;
 }
 
@@ -168,4 +168,11 @@ h1 {
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
+}
+.copy-r{
+  color: #f7ede2;
+  font-size: 14px;
+  margin-top: 200px;
+  text-align: center;
+  background: #f6bd60;
 }
