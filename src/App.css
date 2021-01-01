@@ -27,6 +27,7 @@ h1 {
   text-shadow: 0 0.2rem 0rem #84a59d8c;
   font-family: 'Pacifico', cursive;
   margin: 4rem 0;
+  text-align: center;
 }
 
 .search-form {
@@ -177,4 +178,13 @@ h1 {
 
 .copy-r p {
   background: #f6bd60;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .copy-r p {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
 }
